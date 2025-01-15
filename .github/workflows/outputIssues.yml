@@ -6,4 +6,4 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - name: Output Event Details
-              run: echo "Event Details: ${{ toJson(github.event) }}"
+              run: echo "what is this issue about? ${{ github.event.issue.title }}"
